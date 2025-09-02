@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Vendas - Método de Emagrecimento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #f4b400;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 40px 0;
+    }
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+    .hero-text h1 {
+      font-size: 2.2em;
+      margin-bottom: 15px;
+    }
+    .hero-text p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .hero-text a {
+      display: inline-block;
+      background: #f4b400;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .hero-img {
+      flex: 1;
+      min-width: 280px;
+      text-align: center;
+    }
+    .hero-img img {
+      max-width: 320px;
+      width: 100%;
+      height: auto;
+    }
+    .bonus, .depoimentos, .cta {
+      margin-top: 40px;
+    }
+    .bonus h2, .depoimentos h2, .cta h2 {
+      color: #f4b400;
+    }
+    .depoimento {
+      background: #f9f9f9;
+      border-left: 5px solid #f4b400;
+      margin: 20px 0;
+      padding: 15px;
+      font-style: italic;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Transforme Seu Corpo em 21 Dias</h1>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Emagreça Rápido Sem Dietas Malucas</h1>
+    <p>O método simples que está transformando corpos e vidas em apenas 21 dias.</p>
+    <a href="#comprar">Quero meu acesso agora</a>
+  </div>
+  <div class="hero-img">
+    <img src="assets/capa-livro.png" alt="Capa do Livro">
+  </div>
+</section>
+
+<section class="bonus">
+  <h2>Bônus Exclusivos</h2>
+  <ul>
+    <li>Plano de Treino Simples para Iniciantes</li>
+    <li>Receitas Rápidas e Saudáveis</li>
+    <li><strong>Plano de Desintoxicação em 7 Dias</strong></li>
+  </ul>
+</section>
+
+<section class="depoimentos">
+  <h2>O que nossos alunos dizem</h2>
+  <div class="depoimento">“Perdi 5kg em menos de um mês, sem passar fome!” – Maria S.</div>
+  <div class="depoimento">“Recuperei minha autoestima, recomendo demais!” – João P.</div>
+  <div class="depoimento">“O plano de desintoxicação mudou minha energia já na primeira semana.” – Carla M.</div>
+</section>
+
+<section class="cta" id="comprar">
+  <h2>Garanta seu acesso hoje mesmo</h2>
+  <p>Comece sua transformação agora e receba todos os bônus exclusivos.</p>
+  <a href="#">Quero começar agora</a>
+</section>
+
+<footer>
+  <p>© 2024 Método de Emagrecimento. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
